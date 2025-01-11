@@ -1,0 +1,11 @@
+[package]
+name = "sha256"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+criterion = "0.5"
+
+[[bench]]
+name = "bench_sha256"
+harness = false
